@@ -1,0 +1,36 @@
+.bttn {
+  white-space: nowrap;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.bttn:hover {
+  background-color: whitesmoke;
+}
+.fas,
+.far {
+  margin-right: 5px;
+}
+
+.fa-video {
+  color: violet;
+}
+.fa-file-image {
+  color: green;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-close {
+  margin-left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.fa-close:hover {
+  background-color: whitesmoke;
+}
+
+.active {
+  font-weight: bold;
+}

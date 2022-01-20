@@ -1,0 +1,162 @@
+.post1 {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  z-index: 1000;
+}
+.content {
+  display: flex;
+}
+.img {
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.messageSender__top > form > button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+.feed {
+  flex: 1;
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.option {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.item {
+  width: 50%;
+}
+.item:hover {
+  background-color: whitesmoke;
+}
+.submit {
+  display: flex;
+
+  align-self: flex-end;
+}
+.submit > div,
+button {
+  margin-right: 30px;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+.fa {
+  margin-right: 10px;
+}
+.input {
+  margin-left: 15px;
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.lg {
+  font-size: 30px;
+  align-self: flex-end;
+  color: orange;
+}
+.btn {
+  background-color: blue;
+
+  color: white;
+}
+.fa-map-marker-alt {
+  color: red;
+}
+.fa-tag {
+  color: blue;
+}
+.fa-file-video {
+  color: purple;
+}
+.imgf {
+  margin-left: 40px;
+
+  z-index: 1000;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+ul li {
+  width: 24px;
+  height: 24px;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+}
+
+#red {
+  background-color: #ef5350;
+}
+#green {
+  background-color: #66bb6a;
+}
+#amber {
+  background-color: #ffca28;
+}
+#blue {
+  background-color: #42a5f5;
+}
+#gray {
+  background-color: #bdbdbd;
+}
+
+/* Color selected styles */
+
+.red {
+  color: #ef5350;
+}
+.green {
+  color: #66bb6a;
+}
+.amber {
+  color: #ffca28;
+}
+.blue {
+  color: #42a5f5;
+}
+.gray {
+  color: #bdbdbd;
+}
