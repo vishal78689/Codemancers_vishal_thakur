@@ -2,6 +2,7 @@
   white-space: nowrap;
   margin-right: 15px;
   cursor: pointer;
+  font-size: 20px;
 }
 .bttn:hover {
   background-color: whitesmoke;
@@ -21,6 +22,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  background-color: white;
+  margin-bottom: 1rem;
 }
 .fa-close {
   margin-left: 20px;

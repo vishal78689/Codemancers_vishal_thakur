@@ -1,7 +1,6 @@
 .gifs {
-  height: 20vh;
+  margin-left: 2rem;
 }
-
 .gif {
   cursor: pointer;
   width: 100%;
@@ -10,8 +9,12 @@
   width: 80%;
 }
 
+.form-control {
+  margin-left: 5rem;
+}
 .Gif {
-  height: 40vh;
+  height: 25vh;
+  width: 70%;
   /* margin: 4px, 4px; */
   /* padding: 4px; */
 

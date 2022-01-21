@@ -127,13 +127,7 @@ const Giphy = ({gif,setGif}) => {
           placeholder="search"
           className="form-control"
         />
-        {/* <button
-          onClick={handleSubmit}
-          type="submit"
-          className="btn btn-primary "
-        >
-          Go
-        </button> */}
+       
       </form>
      
       <div className=" gifs">{renderGifs()}</div>

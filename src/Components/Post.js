@@ -46,8 +46,8 @@ const colorchange=(color)=>{
 }
   return <>
        <div className='post1' >
-  <div className='content'>
-  <img src={user} className='img'/>
+  <div className='content1'>
+  <img src={user} className='img1'/>
   <input className='input' placeholder='Whats on your mind?'
     onChange={(e)=>setMess(e.target.value)}
   />
@@ -69,25 +69,25 @@ const colorchange=(color)=>{
       (gif.length!==0)?<div>
        <img src={gif.fixed_height.url} className='imgf'/>
       </div>:
-      <div>
+      <div className='options'>
        <div className='option'>
-  <div className='item'>
+  <div className='item1'>
   <i class="fa fa-tag" aria-hidden="true"></i>
    <span> Tag Friends</span>
   </div>
-  <div className='item'>
+  <div className='item1 x'>
   <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
    <span> Check in</span>
   </div>
 
   </div>
   <div className='option'>
-  <div onClick={()=>setIsgif(true)} className='item'>
+  <div onClick={()=>setIsgif(true)} className='item1'>
   <i class="fa fa-file-video"></i>
   
    <span> GIF</span>
   </div>
-  <div className='item'>
+  <div className='item1 x'>
   <i class='far fa-calendar-alt'></i>
    <span> Tag Event</span>
   </div>

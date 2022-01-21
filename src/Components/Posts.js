@@ -5,7 +5,7 @@ const Posts = ({ profilePic, image, username, timestamp, message }) => {
 
 console.log(image);
 return <>
-      <div className="post">
+      <div className="post2">
       <div className="post__top">
         <img src={profilePic} className="post__avatar" />
         <div className="post__topInfo">

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import Post from './Post';
 import Posts from './Posts';
+import './Feed.css';
 
 const data=[{
     id:"1 ",
@@ -24,7 +25,7 @@ const data=[{
 const Feed = () => {
   const [posts,setPosts]=useState(data);
   const [active,setActive]=useState(false)
-  return  <div className="feed">
+  return  <div className="feed change">
   <Nav setActive={setActive} active={active}/>
   {  (active)?
  <Post posts={posts} setPosts={setPosts}

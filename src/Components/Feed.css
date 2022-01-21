@@ -1,11 +1,7 @@
 .feed {
-  flex: 1;
-  padding: 50px 150px;
+  width: 90%;
+  box-shadow: 0 0 10px 5px #7ea8f1;
+  /* padding: 20px 100px; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.posts {
-  z-index: -1;
 }
