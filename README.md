@@ -5,20 +5,21 @@
 
 
 
-
+## Landing Page
 
 ![App Screenshot](https://github.com/vishal78689/Codemancers_vishal_thakur/blob/main/src/images/main.jpg?raw=true)
 
+## Click on Compose Post
 ![App Screenshot](https://github.com/vishal78689/Codemancers_vishal_thakur/blob/main/src/images/main2.jpg?raw=true)
 
 
-
+## Click on Gif
 ![App Screenshot](https://github.com/vishal78689/Codemancers_vishal_thakur/blob/main/src/images/gif.jpg?raw=true)
 
 
 
 
-
+## Click On Post To Create Post
 ![App Screenshot](https://github.com/vishal78689/Codemancers_vishal_thakur/blob/main/src/images/gif2.jpg?raw=true)
 
 
